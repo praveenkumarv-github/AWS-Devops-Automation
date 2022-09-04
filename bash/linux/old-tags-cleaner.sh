@@ -1,5 +1,5 @@
 #!/bin/bash
-output=output_file.txt  
+output=output_file.txt
 
 for symlink in $(find /var/www/apps/release -type l)
 do
