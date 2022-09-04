@@ -126,7 +126,7 @@ payload = json.dumps({
 headers = {
 'Content-Type': 'application/json'
 }
-conn.request("POST", "/services/T0356QN4S/BA919BKC6/0qB3dsPcLbYPTxos80go9CWG", payload, headers)
+conn.request("POST", "<Slackwebhooks>", payload, headers)
 res = conn.getresponse()
 data = res.read()
 print(data.decode("utf-8"))
